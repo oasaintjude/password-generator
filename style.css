@@ -1,0 +1,77 @@
+:root {
+    --texts: #55F991;
+    --hero-section-span: #4ADF86;
+    --advice: #D5D4D8;
+    --password-opt: #273549;
+    --app-bgc: #1F2937;
+    --body-bgc: #1C1C1C;
+    --btn: #10B981;
+    --hr: #2F3E53;
+}
+
+body {
+    background-color: var(--body-bgc);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app {
+    background-color: var(--app-bgc);
+    height: 50vh;
+    width: 100%;
+    padding: 10px 30px;
+}
+.app h1 {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.app span {
+    color: var(--hero-section-span);
+}
+.app p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: var(--advice);
+    margin-bottom: 30px;
+}
+#btn {
+    background-color: var(--btn);
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 6px;
+}
+hr {
+    margin-top: 30px;
+    border: 1px solid var(--hr);
+}
+#opt {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+/* PASSWORD SECTION */
+.passwordSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.passwordSection p {
+    background-color: var(--password-opt);
+    font-family: 'Inter', sans-serif;
+    width: 150px;
+    height: auto;
+    font-size: 15px;
+    color: var(--texts);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
